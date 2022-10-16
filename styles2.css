@@ -1,0 +1,133 @@
+body {
+    background-color: #444444;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+label {
+    font-size: 50px;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    font-size: 50px;
+}
+
+.content {
+    background-color: #AAAAAA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.info-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#addressInput {
+    min-width: 310px;
+}
+
+.stats-container {
+    margin: 10px;
+    padding: 10px;
+    background-color: #DDDDDD;
+    min-width: 280px;
+}
+
+.address-container {
+    margin: 10px;
+    padding: 10px;
+    background-color: #DDDDDD;
+    width: 100%;
+}
+
+#transaction-history-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.transaction-container {
+    background-color: #AAAAAA;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.transaction-container h4 {
+    word-wrap: break-word;
+    margin: 5px;
+}
+
+.loss {
+    background-color: #E2A3A3;
+}
+
+.gain {
+    background-color: #A7C9A9;
+}
+
+@media only screen and (min-width: 1000px) {
+.info-content {
+    flex-direction: row;
+}
+
+.transaction-container {
+    width: 220px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+label {
+    font-size: 18px;
+}
+
+form {
+    text-align: left;
+}
+
+input {
+    font-size: 18px;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+}
